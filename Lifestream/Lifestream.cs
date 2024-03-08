@@ -49,8 +49,8 @@ namespace Lifestream
                 Overlay = new();
                 EzConfigGui.WindowSystem.AddWindow(Overlay);
                 EzConfigGui.WindowSystem.AddWindow(new ProgressOverlay());
-                EzCmd.Add("/lifestream", ProcessCommand, "Open plugin configuration");
-                EzCmd.Add("/li", ProcessCommand, "automatically switch world to specified (matched by first letters) or return to home world if none specified, or teleport to aethernet destination if near aetheryte. Aethernet destination may be specified next to target world as well.");
+                EzCmd.Add("/lifestream", ProcessCommand, "打开插件设置");
+                EzCmd.Add("/li", ProcessCommand, "自动返回原始服务器或前往指定的服务器（由第一个字符匹配），或在城内以太之晶附近时传送到都市传送网目的地。都市传送网目的地也可添加在目标服务器之后。");
                 TaskManager = new()
                 {
                     AbortOnTimeout = true
