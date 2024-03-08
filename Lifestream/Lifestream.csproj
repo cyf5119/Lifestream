@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project Sdk="Microsoft.NET.Sdk">
     <PropertyGroup>
-        <Authors>NightmareXIV</Authors>
-        <Version>2.0.1.5</Version>
+        <Authors>NightmareXIV, cyf5119(翻译)</Authors>
+        <Version>2.0.1.6</Version>
     </PropertyGroup>
 
     <PropertyGroup>
